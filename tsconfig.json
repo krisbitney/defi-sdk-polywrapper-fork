@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es2020",
+      "es5",
+      "dom"
+    ],
+    "outDir": "build",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "preserveSymlinks": true,
+    "preserveWatchOutput": true,
+    "pretty": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es5",
+    "resolveJsonModule": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "./src/__tests__/e2e/**/*.ts"
+  ],
+  "exclude": [
+    "./src/query/**/*.ts",
+    "./src/mutation/**/*.ts",
+    "./src/commons/**/*.ts",
+    "./src/utils/**/*.ts",
+  ]
+}
